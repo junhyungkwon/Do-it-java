@@ -1,0 +1,22 @@
+package ifExample;
+
+public class private1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int studentId;
+		private String studentName; //studentNam 변수를 private로 선
+		int grade;
+		String address;
+		
+		public String getStudentName() {
+			return studentName;
+			
+		}
+		public void setStudentName(String studentName) {
+			this.studentName = studentName;
+		}
+
+	}
+
+
